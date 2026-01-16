@@ -9,6 +9,8 @@ import miniatureRoyal from "@/assets/miniature-royal.png";
 import paintingDancer from "@/assets/painting-dancer.jpg";
 import miniatureElephant from "@/assets/miniature-elephant.jpg";
 import miniatureRamDarbar from "@/assets/miniature-ram-darbar.png";
+import miniatureKalaaKunj from "@/assets/miniature-kalaa-kunj.jpg";
+
 
 type Category = "all" | "paintings" | "miniatures" | "sketches" | "illustrations" | "experimental";
 
@@ -76,6 +78,15 @@ const artworks: Artwork[] = [
     year: "2023",
     image: miniatureRamDarbar,
     description: "A classical miniature composition depicting the Ram Darbar within a lush green forest setting.",
+  },
+    {
+    id: 7,
+    title: "Celestial Flight",
+    category: "miniatures",
+    medium: "Gouache on Paper",
+    year: "2025",
+    image: miniatureKalaaKunj,
+    description: "Selected for the prestigious 'Kalaa Kunj Exhibition'. An exquisite portrayal of divine romance, uniquely compositioned on a celestial parrot.",
   },
 ];
 

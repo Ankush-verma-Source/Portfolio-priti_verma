@@ -81,7 +81,7 @@ const Footer = () => {
             {/* Socials */}
             <div className="flex gap-3 pt-2">
               {[
-                { icon: Instagram, href: "https://www.instagram.com/priti_verma9558/?hl=en", label: "Instagram" },
+                { icon: Instagram, href: "https://www.instagram.com/p_v_arts/", label: "Instagram" },
                 // { icon: Linkedin, href: "#", label: "LinkedIn" }
               ].map((social) => (
                 <a

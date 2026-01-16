@@ -24,7 +24,7 @@ const Contact = () => {
 
   const socials = [
     { icon: Mail, href: "mailto:pritiv19112003@gmail.com", label: "Email", username: "pritiv19112003@gmail.com" },
-    { icon: Instagram, href: "https://www.instagram.com/priti_verma9558/?hl=en", label: "Instagram", username: "@priti_verma9558" },
+    { icon: Instagram, href: "https://www.instagram.com/p_v_arts/", label: "Instagram", username: "@p_v_arts" },
     // { icon: Linkedin, href: "#", label: "LinkedIn", username: "Aria Velasquez" },
   ];
 
