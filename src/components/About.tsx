@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import artistPortrait from "@/assets/artist-illustration.png";
 
 const About = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -45,13 +46,21 @@ const About = () => {
             style={{ y, opacity, scale }}
             className="relative"
           >
-            <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-elevated">
+            {/* <div className="aspect-[4/5] relative overflow-hidden rounded-lg shadow-elevated">
               <img
                 src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&h=1000&fit=crop"
                 alt="Artist at work"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/30 via-transparent to-transparent" />
+            </div> */}
+             <div className="aspect-[3/4] relative overflow-hidden rounded-lg shadow-elevated group">
+              <img
+                src={artistPortrait}
+                alt="Priti Verma - Artist"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 brightness-[1.05] contrast-[1.05]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 via-transparent to-transparent opacity-60" />
             </div>
             {/* Decorative frame */}
             <motion.div
